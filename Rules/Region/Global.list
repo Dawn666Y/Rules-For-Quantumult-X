@@ -45,6 +45,7 @@ host-suffix,cloudflare.com,Proxy
 host-suffix,cloudfront.net,Proxy
 host-suffix,cloudmagic.com,Proxy
 host-suffix,cmail19.com,Proxy
+host-keyword,cmx,Proxy
 host-suffix,cnet.com,Proxy
 host-suffix,cocoapods.org,Proxy
 host-suffix,comodoca.com,Proxy
@@ -113,6 +114,7 @@ host-suffix,ift.tt,Proxy
 host-suffix,ifttt.com,Proxy
 host-suffix,iherb.com,Proxy
 host-suffix,imageshack.us,Proxy
+host-suffix, imdb.com, Proxy
 host-suffix,img.ly,Proxy
 host-suffix,imgur.com,Proxy
 host-suffix,imore.com,Proxy
@@ -214,6 +216,7 @@ host-suffix,tdesktop.com,Proxy
 host-suffix,techcrunch.com,Proxy
 host-suffix,techsmith.com,Proxy
 host-suffix,thepiratebay.org,Proxy
+host,thegameawards.com,Proxy
 host-suffix,theverge.com,Proxy
 host-suffix,time.com,Proxy
 host-suffix,timeinc.net,Proxy
@@ -225,6 +228,7 @@ host-suffix,trello.com,Proxy
 host-suffix,trustasiassl.com,Proxy
 host-suffix,tumblr.co,Proxy
 host-suffix,tumblr.com,Proxy
+host-keyword,tvtime,Proxy
 host-suffix,tweetdeck.com,Proxy
 host-suffix,tweetmarker.net,Proxy
 host-suffix,twitch.tv,Proxy
@@ -417,6 +421,7 @@ host-suffix,flickr.com,PROXY
 host-suffix,flipboard.com,PROXY
 host-suffix,flipkart.com,PROXY
 host-suffix,flitto.com,PROXY
+host-keyword,fnf,Proxy
 host-suffix,freeopenProxy.com,PROXY
 host-suffix,fullstory.com,PROXY
 host-suffix,fzlm.net,PROXY
@@ -493,6 +498,7 @@ host-suffix,libsyn.com,PROXY
 host-suffix,licdn.com,PROXY
 host-suffix,lightboxcdn.com,PROXY
 host-suffix,like.com,PROXY
+host-keyword,limbopro,Proxy
 host-suffix,linkedin.com,PROXY
 host-suffix,linode.com,PROXY
 host-suffix,lithium.com,PROXY
@@ -785,6 +791,7 @@ host-suffix,wp.com,PROXY
 host-suffix,wsj.com,PROXY
 host-suffix,wsj.net,PROXY
 host-suffix,wwitv.com,PROXY
+host,www.duyaoss.com,Proxy
 host-suffix,xanga.com,PROXY
 host-suffix,xclient.info,PROXY
 host-suffix,xda-developers.com,PROXY

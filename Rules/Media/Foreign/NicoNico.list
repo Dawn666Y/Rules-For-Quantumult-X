@@ -1,0 +1,8 @@
+# NicoNico
+user-agent, Niconico*, NicoNico
+host-suffix, dmc.nico, NicoNico
+host-suffix, nicovideo.jp, NicoNico
+host-suffix, nimg.jp, NicoNico
+host-suffix, socdm.com, NicoNico
+host-keyword, nicovideo, NicoNico
+host, img.cdn.nimg.jp, NicoNico
