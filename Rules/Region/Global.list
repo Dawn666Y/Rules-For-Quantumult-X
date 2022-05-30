@@ -884,3 +884,5 @@ host-suffix,unfiltered.news,PROXY,force-remote-dns
 host-suffix,waveprotocol.org,PROXY,force-remote-dns
 host-suffix,webmproject.org,PROXY,force-remote-dns
 host-suffix,webrtc.org,PROXY,force-remote-dns
+# Texon机场
+host-suffix,texon.io,Proxy
