@@ -422,7 +422,7 @@ host-suffix,flickr.com,PROXY
 host-suffix,flipboard.com,PROXY
 host-suffix,flipkart.com,PROXY
 host-suffix,flitto.com,PROXY
-host-keyword,fnf,Proxy
+host-suffix,fnf.one,Proxy
 host-suffix,freeopenProxy.com,PROXY
 host-suffix,fullstory.com,PROXY
 host-suffix,fzlm.net,PROXY
@@ -886,3 +886,5 @@ host-suffix,webmproject.org,PROXY,force-remote-dns
 host-suffix,webrtc.org,PROXY,force-remote-dns
 # Texon机场
 host-suffix,texon.io,Proxy
+# westdata机场
+host-suffix,fuqing.cz,Proxy
