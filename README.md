@@ -1,4 +1,8 @@
 
+```
+仓库fork自Sveir大佬，感谢大佬的倾情整理，本人尽量保证与上游同步更新(主要是自用)，偶尔也会增加一些自用的规则 ————Dawn666Y
+下面是原作者Sveir的README.md
+```
 
 # Rules For Quantumult X (自用)| Sveir Dev.
 
