@@ -895,3 +895,5 @@ host-suffix,nameless13.com,Proxy
 host-suffix,bygcloud.com,Proxy
 # miaona机场
 host-suffix,miaona.xyz,Proxy
+# App: trakt
+host-suffix,trakt.tv,Proxy
