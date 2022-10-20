@@ -127,7 +127,6 @@ host-suffix,itun.es,Proxy
 host-suffix,ixquick.com,Proxy
 host-suffix,j.mp,Proxy
 host-suffix,js.revsci.net,Proxy
-host-suffix,jsdelivr.net,Proxy
 host-suffix,jshint.com,Proxy
 host-suffix,jtvnw.net,Proxy
 host-suffix,justgetflux.com,Proxy
@@ -897,3 +896,5 @@ host-suffix,bygcloud.com,Proxy
 host-suffix,miaona.xyz,Proxy
 # App: trakt
 host-suffix,trakt.tv,Proxy
+# sub-store
+domain-suffix,vercel.app,Proxy
