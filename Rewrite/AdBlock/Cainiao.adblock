@@ -1,0 +1,21 @@
+/**
+  * @ScriptName           Cainiao.adblock  
+  * @ScriptDescription    菜鸟[菜鸟裹裹]☆净化
+  * @LastUpdateTime       2023-02-03
+  * @Version              V1.0.4
+  * @Remark
+  */
+
+hostname=cn-acs.m.cainiao.com
+
+# > 菜鸟裹裹_请自行添加本地分流@ddgksf2013
+;host, amdc.m.taobao.com, reject
+
+# > 菜鸟裹裹_首页中部的惊喜福利推广@ddgksf2013
+^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Other/Cainiao.js
+# > 菜鸟裹裹_搜索框下方今日好物推荐@ddgksf2013
+^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Other/Cainiao.js
+# > 菜鸟裹裹_首页底部商品推广@ddgksf2013
+^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Other/Cainiao.js
+# > 菜鸟裹裹_通用广告请求@ddgksf2013
+^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn url reject-200
