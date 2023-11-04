@@ -58,8 +58,10 @@
 - [7️⃣ 许可与说明](#7️⃣许可与说明)
 -----
 
-# **中断性变更提醒**
-由于脚本数量的增多以及复杂性的提高,冗余文件影响到仓库内数据分析, 兹定于 **4月30日** 对仓库内部分 *脚本* 或 *分流文件* 进行包括文件名\文件后缀名\目录格式等重构, 届时,如果发生脚本无法找到的情况,请根据发布的 WiKi 等相关指引进行修改操作.
+# **🛠️ 仓库内容分支变更提醒**
+由于仓库内容过于久远，历史数据归档较为困难。
+已经对仓库分支结构进行切换并清理。
+如果你在使用过程中出现文件不存在等问题，请及时更新至对应内容。
 
 # **🉑 简要说明**
 
@@ -106,20 +108,21 @@
 
 ```
 3.使用 **镜像加速域名** 替换 RAW链接,以避免更新配置时出错的相关问题
+
 ```
-例如：
+使用 我无私奉献的 CDN 链接
+
+  e.g: https://rules-for-qx.sveir.xyz/文件夹/文件名.list
   
-  https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
-  
-  请将 *raw.githubusercontent.com* 替换为 *raw.githubusercontents.com* => 后面加个s
+  例如文件: https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Services/SNS/Weibo.list
   
   替换后链接为
   
-  https://raw.githubusercontents.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
+  https://rules-for-qx.sveir.xyz/Rules/Services/SNS/Weibo.list
 ```
 或
 ```
-使用新 CDN 链接
+使用 JsDeliver CDN 链接
 
   e.g: https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@分支名/文件夹/文件名.list
   
@@ -136,14 +139,13 @@
 
 > 推荐使用的规则排序如下
 ```
-1. Unbreak.list - 用于修正 PROXY 和 REJECT 行为
-2. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
-3. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
-4. ForeignMedia.list - 国际流媒体
-5. DomesticMedia.list - 国内流媒体（可不加）
-6. Global.list - 国际网站/应用
-7. Apple.list - Apple 服务（可不加）
-9. China.list - 国内网站/应用
+1. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
+2. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
+3. ForeignMedia.list - 国际流媒体
+4. DomesticMedia.list - 国内流媒体（可不加）
+5. Global.list - 国际网站/应用
+6. Apple.list - Apple 服务（可不加）
+7. China.list - 国内网站/应用
 ```
 
 **说明**
@@ -195,7 +197,7 @@
 2. 安装并启用证书
 3. **到系统「设置 > 通用 > 关于本机」中底部的「证书信任设置」中信任所安装的证书！**
 
-#### 为什么某一些应用任然有广告
+#### 为什么某一些应用仍然有广告
 
 **1.缓存**
 
