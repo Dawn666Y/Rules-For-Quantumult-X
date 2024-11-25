@@ -1,19 +1,18 @@
 /***********************************************
  > 应用名称：墨鱼自用微博&微博国际版净化脚本
- > 脚本作者：@ddgksf2013, @Zmqcherish
+ > 脚本作者：@ddgksf2013
  > 微信账号：墨鱼手记
- > 更新时间：2024-08-22
+ > 更新时间：2024-10-30
  > 通知频道：https://t.me/ddgksf2021
  > 贡献投稿：https://t.me/ddgksf2013_bot
- > 原作者库：https://github.com/zmqcherish
  > 问题反馈：ddgksf2013@163.com
  > 特别提醒：如需转载请注明出处，谢谢合作！
- > 脚本声明：本脚本是在Zmqcherish原创基础上优化自用
+ > 脚本声明：本脚本是在[https://github.com/zmqcherish]原创基础上优化自用
  > 脚本声明：若有侵犯原作者权利，请邮箱联系删除
  ***********************************************/
 
 
-const version = 'V2.0.130';
+const version = 'V2.0.133';
 
 
 const mainConfig = {
@@ -123,7 +122,7 @@ function removeAdPreload(e) {
 }
 
 function removeIntlOpenAds(e) {
-    return e.data && 0 !== e.data.length && (e.data.ad_list = [], e.data.gdt_video_ad_ios = [], e.data.display_ad = 0, e.data.ad_ios_id = null, e.data.app_ad_ios_id = null, e.data.reserve_ad_ios_id = "", e.data.reserve_app_ad_ios_id = "", e.data.ad_duration = 604800, e.data.ad_cd_interval = 604800, e.data.pic_ad = []), e
+    return e.data && (e.data = {display_ad: 1}), e
 }
 
 function removeSearchTopic(e) {
@@ -206,7 +205,7 @@ function removeSearchMain(e) {
 }
 
 function checkSearchWindow(e) {
-    return !!mainConfig.removeSearchWindow && "card" == e.category && (e.data?.itemid == "finder_window" || e.data?.itemid == "discover_gallery" || e.data?.itemid == "more_frame" || e.data?.card_type == 208 || e.data?.card_type == 236 || e.data?.card_type == 247 || e.data?.card_type == 217 || e.data?.card_type == 101 || e.data?.card_type == 19 || e.data?.mblog?.page_info?.actionlog?.source?.includes("ad"))
+    return !!mainConfig.removeSearchWindow && "card" == e.category && (e.data?.itemid == "finder_window" || e.data?.itemid == "discover_gallery" || e.data?.itemid == "more_frame" || e.data?.card_type == 208 || e.data?.card_type == 236 || e.data?.card_type == 247 || e.data?.card_type == 217 || e.data?.card_type == 101 || e.data?.card_type == 19 || e.data?.mblog?.page_info?.actionlog?.source?.includes("ad") || e.data?.pic?.includes("ads"))
 }
 
 function removeSearch(e) {
