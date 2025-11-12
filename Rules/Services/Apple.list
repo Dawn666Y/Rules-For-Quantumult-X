@@ -46,9 +46,10 @@ host-suffix,developer.apple.com,Apple
 
 
 # > iCloud
-host-keyword,icloud,Apple
+;host-keyword,icloud,Apple
 host-keyword,icoudo,Apple
 host-keyword,icoudos,Apple
+host-keyword,icloud.com.akadns.net,Apple
 host-suffix,applemx-icloud.com,Apple
 host-suffix,appleicloud.cn,Apple
 host-suffix,apple-icloud.cn,Apple
@@ -106,7 +107,7 @@ host-suffix,apple-mapkit.com,Apple Domestic
 host-suffix,apple-livephotoskit.com,Apple
 
 # > Apple Resources Server
-host,testflight.apple.com,OutSide
+host,testflight.apple.com,Apple
 host-suffix,appldnld.apple.com,Apple Domestic
 host-suffix,secure-appldnld.apple.com,Apple
 host-suffix,itunesu.assets.itunes.com,OutSide
